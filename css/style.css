@@ -1,0 +1,544 @@
+/*start css the  index page*/							  
+	/*start css heder the index page*/
+		.headermain {
+					width:100%;
+					height:350px;
+					padding-bottom:0px;
+					/*background-image:url('../image/ggggg.jpg');*/
+					background-size:auto auto;
+					
+				}
+		.headermain img{
+					margin-left:40px;
+					margin-top:50px;
+					width:20%; 
+				}
+		.headermain h1{
+					color:#FF8C00;
+					text-align:center;
+					padding-top:80px;
+					padding-right:120px;
+					font-size:60px;
+					font-weight:bold;
+					
+				}
+		.headermain a{
+			color:#847c7c;
+			font-size:25px;
+			text-decoration:none;
+		}
+		.headermain  a:hover{
+			
+			font-size:30px;
+		    color:#FF8C00;
+		}
+		
+	/*end css heder the index page*/
+	/*start css section the  index page*/
+			.section1{		/*.section1 follow the index page*/
+			text-align:center;
+			width:250px;
+			margin-right:35px;
+			margin-top:0px;
+			margin-bottom:0px;
+			height:1200px;
+			background-color:#ddd;
+		}
+			table{
+						text-align:center;
+						margin-top:70px;
+						width:100%;
+						margin-right:0px;
+						height:60%;
+			}
+			table caption h2{
+					font-weight:bold;
+					font-size:30px;
+			}
+			table th{
+					background-color:#FF8C00;
+					padding:15px;
+					font-weight:bold;
+					font-size:20px;
+			}
+			table td {
+					
+					background-color: #847c7c;
+					padding:5px 5px 15px 5px  ;
+					font-weight:bold;
+					font-size:20px;
+					border-bottom:4px solid #FF8C00;
+					margin:2px;
+			}
+			table td:hover{
+				background-color: #ddd;
+				font-size:30px;
+			}
+			tfoot td{
+				height:50px;
+			}
+			table td a{
+					color:#FF8C00;
+					text-decoration:none;
+			}
+			.section2{			/*.section2 follow the index page*/
+			
+			width:77%;
+			height:1200px;	
+		}
+			.section3{					/*.section3 follow the index page*/
+			width:95%;
+			height:590px;
+			text-align:center;
+		}
+			.section3 h3{					/*css h3 of the section in the index page */
+			  background-color:#ddd;
+			  border:3px solid #847c7c;
+			  box-shadow:-5px -5px 10px #847c7c;			  
+			  width:20%;
+			  height:20px;
+			  text-align:center;
+			  font-size:20px;
+			  font-weight:bold;
+			  text-decoration:none;
+			  margin-right:460px;
+			  padding:2px 0px 10px;
+			}
+			.section3 a image{
+				width:17%;
+			}
+			.section4{					/*.section4 follow the index page*/
+			width:95%;
+			height:590px;
+			text-align:center;
+		}
+			.section4 h3{		  /*css h3 of the section in the index page */
+			  background-color:#ddd;
+			  border:3px solid #847c7c;
+			  box-shadow:-5px -5px 10px #847c7c;
+			  width:20%;
+			  height:20px;
+			  text-align:center;
+			  font-size:20px;
+			  font-weight:bold;
+			  text-decoration:none;
+			  margin-right:460px;
+			  padding:2px 0px 10px;
+			}
+	/*end css section the index page*/
+	/*start css the footer index page*/
+		.footer_header {
+				text-align:center;
+				padding:2px;
+				height:150px;
+				font-size:22px;
+		}
+	/*end css the footer index page*/
+/*end css the  index page*/
+/*start css common  the all pages*/
+		/*start css body the all pages*/	
+			body{              		     
+			direction:rtl;
+			background-color:#847c7c;
+		}
+		/*end css body the all pages*/
+		/*start css header the all pages*/
+			header{
+				background-color:#ddd; 
+				background-size:auto auto;
+				padding-bottom:10px;
+			}
+			header img{
+				width:7%; 
+				float:left;
+				margin-left:30px;
+				margin-top:20px;
+			}
+			header ul{
+				list-style:none;	
+				padding-top:40px;	
+				margin:0;
+				text-align:right;
+			} 
+			header ul li{
+				display:inline-block;	
+				padding:20px;
+				font-size:20px;
+				
+			}
+			header ul li:after{
+				content:"|";
+				font-size:30px;
+				color:#847c7c;
+			}
+			header a{
+				text-decoration:none;
+			}
+			header a:hover{
+				font-size:30px;
+				color:#FF8C00;
+			}
+			header ul li:last-child:after{
+				content:"";
+			}
+			button {
+				display:inline-block;
+				margin-right:40px;
+				margin-bottom:1px;
+				padding:2px;
+				border-bottom-color:red;
+				border-style:solid;
+				border-width:5px;
+		
+			}
+			
+		/*end css heder the all pages*/	
+		
+		/*start css navgation the all pages*/
+			  nav{
+				  width:100%;
+				  height:70px;
+				  background-color:#847c7c; 
+			  }
+			  nav div {
+				  display:inline-block;
+				  background-color:#847c7c;
+			  }
+			  .colorbotton{
+				  background-color:#FF8C00;
+			  }
+			  .vav_div_home_1{
+				  background-color:#847c7c;
+				   width:35%;
+				   height:40px;
+				   padding-top:5px;
+			  }
+			  .vav_div_home_1 input{
+				  width:25%;
+				  margin-top:4px;
+				  padding:5px ;
+				  font-size:20px;
+				  color:#000;
+			  }
+			  .vav_div_home_2{
+					width:60%;
+					background-color:#847c7c;
+					margin-right:20px;
+					margin-top:10px;
+					text-align:left;
+					height:40px;
+			  }
+			  nav div a { 
+					padding:3px ;
+					text-decoration :none;
+					font-size:30px; 
+					color:#fff;				
+			  }
+			  input.nav_input2 {
+			   width:70%;
+			   margin-top:4px;
+			  }
+		/*end css navgation the all pages*/
+		
+		/*srart css section the all pages*/
+			section{
+				float:right;
+				background-color:#F8F8FF;	
+			}
+			.sectionmain{
+					width:100%;
+					height:1200px;
+			}
+			.rrr{				/*  float:right;هذا الكلاس الذي يعمل على تنظيم السيكشن لخاصية   */
+				clear:both;
+				}
+			.ccccc{					/*.ccccc    follow the all pages of section library*/
+					width:80%;
+					height:550px;
+			}
+			span{
+				border:3px solid #847c7c;
+				font-size:20px;
+				background-color:#ddd;
+				margin:10px;
+			}
+			.spane_one{
+				background-color:#FF8C00;
+			}
+			span :hover{
+				background-color:#FF8C00;
+			}
+			span a{
+				color:#000;
+				text-decoration:none;
+			}
+			.sectionlink{
+				text-align:center;
+				width:100%;
+				height:40px;
+				padding-top:10px;
+			}
+		/*end css section the all pages*/
+		
+		/*start css footer the all pages*/
+			footer{
+				color:#FF8C00;
+				padding-top:2px;
+				height:240px;
+				background-color:#847c7c;
+				text-align:center;
+				font-size:25px;
+			}
+			footer header {
+					color:#000;
+					background-color:#C0C0C0;
+					margin:0px 15px;
+					text-align:center;
+					padding:0px;
+					height:150px;
+					font-size:20px;
+			}
+			footer p{
+				padding-bottom:10px;
+			}
+		/*end css foter the all pages*/
+		
+		/*start css image  the all pages*/
+				section img {				
+						width:17%;
+						border:2px solid #847c7c;
+						float:left;
+						padding-bottom:0px;
+						box-shadow:-5px -5px 10px #847c7c;
+						margin-left:80px;
+						margin-top:12px;
+						transition-property:all;
+						transition-duration:2s;
+				}
+				section img:hover{
+					transform:scale(2)
+				}
+		/*end css image the all pages*/
+/*end  css common the all pages*/
+
+
+/*start css the abute us  page*/
+		.aboutus{
+			width:100%;
+			height:600px;
+	}
+		.aboutus article{
+			background-color:#fff;
+			width:80%;
+			height:400px;
+			text-align:center;
+			font-size:20px;
+			box-shadow:20px 20px 15px #a1a1a1;
+			margin-right:150px;
+			margin-top:50px;
+			border:3px  solid  #a1a1a1 ;
+			padding-top:40px;
+	}
+		.aboutus ul{
+			padding-top:40px;
+	}
+		.aboutus div{
+		margin-top:30px;
+		width:100%;
+		height:300px;
+		background-color:#FF8C00;
+	}
+		.aboutus section{
+		margin-top:30px;
+		background-color:#ddd;
+		width:100%;
+		height:300px;
+	}
+		.aboutus img{
+				width:15%;
+				height:80%;
+				border:2px solid #847c7c;
+				float:left;
+				padding-bottom:0px;
+				box-shadow:-5px -5px 10px #847c7c;
+				margin-left:80px;
+				margin-top:30px;
+		}
+		.aboutus img:hover {
+			transform:translate(30px,30px);
+		}
+/*end  css the abute us  page*/
+/*srart  css the services  page*/
+		.services{
+		width:100%;
+		height:600px;
+	}
+		.services div{
+		margin-top:50px;
+		width:100%;
+		height:280px;
+		background-color:#FF8C00;
+	}
+		.services section{
+		margin-top:30px;
+		background-color:#ddd;
+		width:100%;
+		height:280px;
+	}
+		.services article{
+			background-color:#fff;
+			width:80%;
+			height:400px;
+			font-size:20px;
+			box-shadow:20px 20px 15px #a1a1a1;
+			margin-right:150px;
+			margin-top:60px;
+			border:3px  solid  #a1a1a1 ;
+			padding-top:40px;
+			
+	}
+		.services ol{
+				padding-top:60px;
+					}
+/*end  css the services  page*/
+/*start  css the contantus  page*/
+		.contantus{
+		width:100%;
+		height:650px;
+	}
+		.contantus article{
+			background-color:#fff;
+			width:80%;
+			height:465px;
+			font-size:20px;
+			box-shadow:20px 20px 15px #a1a1a1;
+			margin-right:150px;
+			margin-top:50px;
+			border:3px  solid  #a1a1a1 ;
+			padding-top:40px;
+	}
+		.contantus label{
+		margin-right:30px;
+		padding-top:30px;
+		font-size:20px;
+	}
+		.contantus div{
+		background-color:#ddd;	
+	}
+		.contantus form{
+		padding-top:30px;
+		background-color:#FF8C00;
+		margin-top:40px;
+	}
+		.contantus input{
+		margin:5px 30px 15px ;
+		font-size:20px;
+	}
+		.contantus textarea{
+		margin-bottom:15px;
+		margin-right:30px;
+		font-size:20px;
+	}
+/*end  css the contantus  page*/
+
+/*end  css the login  page*/
+		.login{
+		width:100%;
+	    height:1000px;
+	}
+		.login article{
+			background-color:#fff;
+		    width:80%;
+			height:650px;
+			font-size:20px;
+			box-shadow:20px 20px 15px #a1a1a1;
+			margin-right:150px;
+			margin-top:50px;
+			border:3px  solid  #a1a1a1 ;
+			padding-top:40px;
+	}
+		.login form{
+		padding-top:30px;
+		background-color:#FF8C00;
+		margin-top:40px;
+	}
+		.login div{
+		background-color:#ddd;	
+	}
+		.login label{
+		margin-right:30px;
+		font-size:20px;
+	}
+		.login input{
+		margin:5px 30px 15px 30px ;
+		font-size:20px;
+	}
+		.login select{
+		margin-bottom:15px;
+		margin-right:30px;
+		font-size:20px;
+	}
+/*end  css the login  page*/
+
+/*start  css the book1  page*/
+		.book1{
+			width:100%;
+			height:900px;
+		} 
+		.book1 article {
+			background-color:#fff;
+		    width:80%;
+			height:650px;
+			font-size:20px;
+			box-shadow:20px 20px 15px #a1a1a1;
+			margin-right:150px;
+			margin-top:50px;
+			border:3px  solid  #a1a1a1 ;
+			padding-top:40px;
+		}
+		.book1 section {
+			padding-bottom:10px;
+			margin-top:10px;
+			width:49.82%;
+			height:520px;
+			background-color:#ddd;
+		}
+		.div_color {
+			background-color:#FF8C00;
+			height:540px;
+			width:100%;
+			padding-top:30px;
+			margin-top:40px;
+		}
+		.div_section1{
+			border-left:3px solid #a1a1a1;
+			
+		}
+		div img {
+						width:70%;
+						height:90%;
+						border:2px solid #847c7c;
+						padding-bottom:0px;
+						box-shadow:-5px -5px 10px #847c7c;
+						margin-left:70px;
+						margin-top:30px;
+		}
+		div img:hover{
+					transform:scale(1)
+				}
+		.book1 li{
+			padding:6px;
+			font-size:20px;
+		}
+		.book1 input{
+			text-align:center;
+			font-size:30px;
+			margin:50px 30px 0px 0px;
+			border:2px solid #a1a1a1;
+			box-shadow:-5px -5px 10px #847c7c;
+		}
+/*end  css the  book1  page*/
+		
+
+
+
